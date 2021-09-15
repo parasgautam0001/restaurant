@@ -1,0 +1,273 @@
+body{
+    font-family:'oxygen';
+    background-color:aqua;
+}
+#header-nav
+{
+    background-color:yellow;
+}
+#logo-img{
+    background: url("../images/barb.jpg") no-repeat;
+    width:150px;
+    height:120px;
+    margin:10px 15px 10px 0px;
+}
+.star{
+    width:20px;
+    height:20px;
+}
+.navbar-brand{
+    float:left;
+    padding-top:25px;
+}
+.navbar-brand h1{
+    font-family:lora;
+    color:green;
+    font-size:1.5em;
+    text-transform:uppercase;
+    font-weight:bold;
+    text-shadow:1px 1px 1px #222;
+    margin-top:0px;
+    margin-bottom:0px;
+    line-height:.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration:none;
+}
+.navbar-brand p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000;
+    text-transform:uppercase;
+    font-size:.7em;
+    margin-top:15px;
+}
+.navbar-brand p span{
+    vertical-align:middle;
+}
+#nav-list{
+    margin-top:10px;
+}
+#nav-list a{
+    color:brown;
+    text-align:center;
+}
+#nav-list a:hover{
+    background:chartreuse
+}
+#nav-list a span{
+    font-size:1.8em;
+    margin-right:10px;
+}
+#phone{
+    margin-top:5px;
+}
+#phone a{
+    text-align:right;
+    padding-bottom:3px;
+}
+#phone div{
+    color:green;
+    text-align:right;
+    padding-right:25px;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+    border:1px solid red;
+}
+.navbar-header button.navbar-toggle
+{
+    clear:both;
+    margin-top:-30px;
+}
+#collapsable-nav a{
+    font-size:1.2em;
+}
+#collapsable-nav a span{
+    font-size:1em;
+}
+#menu
+{
+    background: url("../images/menu.jpg") no-repeat;
+}
+#specials
+{
+    background: url("../images/specials.jpg") no-repeat;
+}
+#menu,#specials,#map{
+    height:250px;
+    position:relative;
+    margin-bottom: 30px;
+    border:2px solid black;
+    overflow:hidden;
+    background-position:center;
+}
+#menu:hover, #specials:hover, #map:hover{
+    box-shadow:  1px 1px 5px white;
+}
+#menu span,#specials span,#map span{
+    color:red;
+    width:100%;
+    position: absolute;
+    bottom:0;
+    right:0;
+    text-transform: uppercase;
+    text-align:center;
+    background-color: beige;
+    opacity: 0.8;
+}
+.panel-footer{
+    padding-top:2opx;
+    margin-top:30px;
+    padding-bottom:20px;
+    background-color:hotpink;
+    color:whitesmoke;
+}
+.panel-footer div.row{
+    margin-bottom:30px;
+}
+#time,#address,#offers{
+    line-height: 2;
+}
+#copy{
+    text-align:center;
+}
+#offers{
+    font-style: italic;
+    color:greenyellow;
+}
+#sat{
+    color:red;
+}
+h2{
+    font-size:40px;
+    background-color: plum;
+    text-align: center;
+    color:red;
+    padding:20px;
+    margin-bottom:40px;
+}
+.menu-tiles{
+    position:relative;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    margin:0 auto 60px;  
+    border:1px solid black;
+}
+.menu-tiles span{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    background-color:chartreuse;
+    color:darkred;
+    text-align:center;
+    opacity: .7;
+}
+#single{
+    text-align: center;
+}
+#price{
+    font-size:30px;
+    color:green;
+    font-style:oblique;
+}
+#single a{
+    text-decoration: none;
+    color:black;
+}
+#single a:hover{
+    color:indianred;
+}
+#box-left{
+    width:50%;
+    margin:auto;
+    margin-bottom: 8px;
+    font-size:25px;
+    padding:10px;
+    background-color:orange;
+    border:1px solid black;
+    border-radius:1rem;
+    font-style: italic;
+    text-align:center;
+}
+#box-right{
+    width:70%;
+    margin:auto;
+    font-size:22px;
+    padding:10px;
+    background-color:white;
+    border:1px solid black;
+    border-radius:1rem;
+    font-style: italic;
+    text-align:center;
+}
+@media (min-width:1200px)
+{
+    .container .jumbotron{
+        background: url('../images/main_1200.png') no-repeat;
+        height:692px;
+        box-shadow:0 0 50px #3f0c1f;
+        border:2px solid black;
+    }
+}
+@media (min-width:992px) and (max-width:1199px) 
+{
+    p1{
+        display:none;
+    }
+    .container .jumbotron{
+    background: url("../images/main_992.png") no-repeat;
+    height:550px;
+    box-shadow:0 0 50px #3f0c1f;
+    border:2px solid black;
+    }
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    .container .jumbotron{
+    background: url("../images/main_767.png") no-repeat;
+    padding:0px;
+    height:440px;
+    box-shadow:0 0 50px #3f0c1f;
+    border:2px solid black;
+    }
+    
+}
+@media (max-width:767px)
+{
+    .navbar-brand{
+        padding-top:10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top:10px;
+        font-size:5vw;
+    }
+    .navbar-brand p{
+        margin-top:12px;
+        font-size:3vw;
+    }
+    .navbar-brand p image{
+        height:18px;
+    }
+    .container .jumbotron{
+        margin-top:30px;
+        padding:0px;
+        box-shadow:0 0 50px #3f0c1f;
+        border:2px solid black;
+    }
+    #time,#address,#offers{
+        text-align:center;
+        font-size:1.2em;
+    }
+}
+@media (max-width:480px)
+{
+    .navbar-brand h1{
+        padding-top:10px;
+        font-size:6vw;
+    }
+    .col-xxs-12{ 
+        width:100%;
+    }
+}
